@@ -1,33 +1,14 @@
 # sparta-js-rock-paper-scissors
 Game
 
-__Sparta Global__
-__Rock, Paper, Scissors - Homework__
+## Things that went well
 
-Your homework is to create the game Rock Paper Scissors game against the computer in the browser using alerts and prompts.
+I think my code looks clean.  
+I think I used functions well
+It works!!
 
-*Rules of the Game*
+## Challenges
 
-There are a few basic rules to the game:-
+It took me a bit of time to figure out how to structure this. Wrapping my head over having two players with different scores took me a bit of time. I wrote down what I did know and eventually it clicked as I went along
 
-Rock **beats** Scissors
-Paper **beats** Rock
-Scissors **beats Paper**
-
-Deliverables (You will need to):-
-
-Setup:-
-* Create a repo on Git called `sparta-js-rock-paper-scissors`
-* Create a dev branch
-* Submit a pull request by 9:00 with your completed work
-
-
-* Get the player input through the browser
-* Create a random move for the computer
-* You should play the best of five rounds between the player and the computer
-* You will need to check for a winner after each round
-* You should display the score after each round
-
-
-__**Things to think about**__
-* Try and separate your code out into functions
+I think there is probably a better way to the if statements. I did a lot of if checks and I reckon there is a way to half them.
