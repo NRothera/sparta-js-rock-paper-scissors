@@ -51,7 +51,17 @@ function init(){
 function winCheck(){
   if (player1Score === 3){
     alert(player1 + ' wins the game!')
+    var playAgain = prompt("Play again? y or n")
+    if (playAgain ==='y'){
+      player1Score =0
+      computerScore=0
+    }
   }else if (computerScore === 3){
     alert(computer + ' wins the game!')
+    var playAgain = prompt("Play again? y or n")
+    if (playAgain ==='y'){
+      player1Score =0
+      computerScore=0
+    }
   }
 }
