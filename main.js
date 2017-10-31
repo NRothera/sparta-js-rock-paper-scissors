@@ -27,6 +27,13 @@ while (player1Score < 3 && computerScore < 3) {
   winCheck()
 }
 
+function init(){
+  player1Choice = prompt('Please choose rock, paper or scissors')
+  randomPlay2 = Math.floor(Math.random()*3)
+  play1 = player1Choice
+  play2 = rockPaperScissors[randomPlay2]
+}
+
 function player1Wins(){
   alert(player1 + ' uses ' + play1 + ", " + computer + ' uses ' + play2)
   alert(player1 + ' wins!')
@@ -39,13 +46,6 @@ function computerWins(){
   alert(computer + ' wins!')
   computerScore +=1
   alert("The scores are: player1 - " + player1Score +', Computer - '+ computerScore )
-}
-
-function init(){
-  player1Choice = prompt('Please choose 0 for ' + rockPaperScissors[0] + ', 1 for '+ rockPaperScissors[1] + ' or 2 for '+ rockPaperScissors[2])
-  randomPlay2 = Math.floor(Math.random()*3)
-  play1 = rockPaperScissors[player1Choice]
-  play2 = rockPaperScissors[randomPlay2]
 }
 
 function winCheck(){
