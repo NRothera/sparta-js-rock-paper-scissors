@@ -24,6 +24,7 @@ while (player1Score < 3 && computerScore < 3) {
   }else if (play2 === 'scissors' && play1 === 'rock'){
     player1Wins()
   }
+  winCheck()
 }
 
 function player1Wins(){
@@ -45,4 +46,12 @@ function init(){
   randomPlay2 = Math.floor(Math.random()*3)
   play1 = rockPaperScissors[player1Choice]
   play2 = rockPaperScissors[randomPlay2]
+}
+
+function winCheck(){
+  if (player1Score === 3){
+    alert(player1 + ' wins the game!')
+  }else if (computerScore === 3){
+    alert(computer + ' wins the game!')
+  }
 }
