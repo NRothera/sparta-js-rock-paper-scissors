@@ -31,7 +31,6 @@ function init(){
     winCheck();
   }
 }
-
 // This function stores the player choice and randomly selects the computer choice
 function gameStart(){
   player1Choice = prompt('Please choose rock, paper or scissors');
@@ -55,7 +54,6 @@ function computerWins(){
   computerScore +=1;
   alert("The scores are: player1 - " + player1Score +', Computer - '+ computerScore );
 }
-
 //At the end of each round this function checks to see if anyone has won yet.
 function winCheck(){
   if (player1Score === 3){
